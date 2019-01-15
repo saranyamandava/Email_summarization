@@ -9,7 +9,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import pairwise_distances_argmin_min
 from skipthoughts import *
 nltk.download('punkt')
-df = pd.read_csv('/Users/Srini/email_summarization/emails.csv',nrows=50)
+df = pd.read_csv('/Users/Srini/email_summarization/emails.csv',nrows=5000)
 print (df.shape)
 print (df.head(5))
 
